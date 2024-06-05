@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import { GifsService } from '../../services/gifs.service';
 
 @Component({
     selector: 'app-gifs-cardList',
@@ -7,6 +8,7 @@ import { Component} from '@angular/core';
 
 export class CardListComponent  {
     constructor() { }
+
 
  
 }
