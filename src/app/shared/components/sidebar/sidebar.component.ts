@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HOST_TAG_NAME } from '@angular/core';
 import { GifsService } from '../../../gifs/services/gifs.service';
 
 @Component({
@@ -13,4 +13,7 @@ get tags(){
   return this.gifsService.tagsHistory;
 }
 
+searchTag(tag:string){
+  this.gifsService.searchTag(tag);
+}
 }
